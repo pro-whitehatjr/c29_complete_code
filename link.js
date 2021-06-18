@@ -13,11 +13,5 @@ class Link{
         });
         World.add(engine.world,this.link);
     } 
-
-    dettach()
-    {
-      World.remove(engine.world,this.link);
-     
-    }
 }
 
